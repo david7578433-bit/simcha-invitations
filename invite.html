@@ -1,0 +1,126 @@
+<!doctype html>
+<html id="top" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You’re invited! · א הזמנה צו א שמחה</title>
+<meta name="description" content="Tap to open the invitation, get directions and add it to your calendar. Simcha Invitations · שמחה אינלאדונגען">
+<meta name="theme-color" content="#1b2d3e">
+<link rel="canonical" href="https://david7578433-bit.github.io/simcha-invitations/invite.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Simcha Invitations · שמחה אינלאדונגען">
+<meta property="og:title" content="You’re invited! · א הזמנה צו א שמחה">
+<meta property="og:description" content="Tap to open the invitation, get directions and add it to your calendar. Simcha Invitations · שמחה אינלאדונגען">
+<meta property="og:image" content="https://david7578433-bit.github.io/simcha-invitations/og.jpg?v=a71d1f30">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://david7578433-bit.github.io/simcha-invitations/invite.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon.png?v=a71d1f30">
+<link rel="apple-touch-icon" href="apple-touch-icon.png?v=a71d1f30">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Simcha Invitations">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;800&family=Heebo:wght@400;500;600;700&display=swap">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="style.css?v=20261027-7">
+<link rel="stylesheet" href="invitations.css?v=5">
+<link rel="stylesheet" href="standalone.css?v=a71d1f30">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellefair&family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=David+Libre:wght@400;700&family=Frank+Ruhl+Libre:wght@500;700;900&family=Secular+One&family=Suez+One&family=Karantina:wght@700&family=Amatic+SC:wght@700&family=Rubik:wght@400;800&family=Bona+Nova:wght@700&family=Noto+Rashi+Hebrew:wght@500&family=Heebo:wght@400;800&display=swap">
+<script src="standalone.js?v=a71d1f30" defer></script>
+<script src="invitations.js?v=5" defer></script>
+<script src="studio.js?v=1" defer></script>
+
+</head>
+<body>
+<a class="skip-link" href="#main"><span data-lang="en">Skip to content</span><span data-lang="yi" hidden>שפרינגט צום אינהאלט</span></a>
+<header class="sx-header">
+  <div class="wrap sx-header-inner">
+    <a class="sx-brand" href="index.html" aria-label="Simcha Invitations">
+      <svg class="sx-mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="sxGoldH" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9cf95"/><stop offset=".5" stop-color="#b8955f"/><stop offset="1" stop-color="#8a6a3f"/></linearGradient></defs><circle cx="24" cy="24" r="22.5" fill="none" stroke="url(#sxGoldH)" stroke-width="1.2"/><path d="M24 7l4.6 6.4H36l-1.2 7.4L41 24l-6.2 3.2L36 34.6h-7.4L24 41l-4.6-6.4H12l1.2-7.4L7 24l6.2-3.2L12 13.4h7.4z" fill="none" stroke="url(#sxGoldH)" stroke-width="1.3" stroke-linejoin="round"/><path d="M24 15l9 9-9 9-9-9z" fill="url(#sxGoldH)" opacity=".92"/><circle cx="24" cy="24" r="2.6" fill="#fbf8f2"/></svg>
+      <span class="sx-brand-text">
+        <span class="sx-brand-name"><span data-lang="en">Simcha Invitations</span><span data-lang="yi" hidden>שמחה אינלאדונגען</span></span>
+        <span class="sx-brand-sub"><span data-lang="en" lang="yi">שמחה אינלאדונגען</span><span data-lang="yi" hidden lang="en">Simcha Invitations</span></span>
+      </span>
+    </a>
+    <div class="sx-langs" role="group" aria-label="Language">
+      <button class="sx-lang lang-button" type="button" onclick="toggleLang()">אידיש</button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="inv-view" >
+  <section class="wrap inv-view-wrap" id="invView" aria-live="polite">
+    <p class="inv-view-loading" id="viewLoading"><span data-lang="en">Opening the invitation…</span><span data-lang="yi" hidden>מ׳עפנט די הזמנה…</span></p>
+
+    <div class="inv-view-empty" id="viewEmpty" hidden>
+      <h1><span data-lang="en">This invitation link is incomplete</span><span data-lang="yi" hidden>דער לינק איז נישט פולשטענדיג</span></h1>
+      <p><span data-lang="en">The link may have been cut off when it was copied. Ask the sender to send it again — or make your own invitation in a minute.</span><span data-lang="yi" hidden>דער לינק איז אפשר אפגעשניטן געווארן. בעט ביים שיקער ער זאל עס נאכאמאל שיקן — אדער מאכט אייער אייגענע הזמנה.</span></p>
+      <a class="button button-gold" href="index.html"><span data-lang="en">Make an invitation</span><span data-lang="yi" hidden>מאכט א הזמנה</span></a>
+    </div>
+
+    <div class="inv-env" id="invEnvelope" hidden>
+      <button type="button" class="inv-env-skip" id="envSkip"><span data-lang="en">Skip</span><span data-lang="yi" hidden>איבערשפרינגען</span></button>
+      <div class="inv-env-stage">
+        <button type="button" class="inv-env-body" id="envOpen" aria-label="Open the invitation">
+          <span class="inv-env-back"></span>
+          <img class="inv-env-card" id="envCard" alt="">
+          <span class="inv-env-front"></span>
+          <span class="inv-env-flap"><span class="inv-env-liner"></span></span>
+          <span class="inv-env-seal"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6l12 21H8zM20 34L8 13h24z"/></svg></span>
+        </button>
+        <p class="inv-env-hint"><span data-lang="en">Tap to open</span><span data-lang="yi" hidden>טאפט צו עפענען</span></p>
+      </div>
+    </div>
+    <div class="inv-view-grid" id="viewMain" hidden>
+      <div class="inv-view-card"><canvas id="viewCanvas" width="900" height="1260" role="img"></canvas></div>
+      <div class="inv-view-info">
+        <p class="inv-kicker"><span data-lang="en">You’re invited</span><span data-lang="yi" hidden>איר זענט איינגעלאדן</span></p>
+        <h1 id="vTitle"></h1>
+        <p class="inv-countdown" id="vCount" hidden></p>
+        <ul class="inv-facts">
+          <li id="vDate"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2v3M17 2v3M3 9h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg><div><span class="v-main"></span><span class="v-sub"></span></div></li>
+          <li id="vTime"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><span class="v-main"></span></div></li>
+          <li id="vPlace"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><span class="v-main"></span><span class="v-sub"></span></div></li>
+          <li id="vNote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 9h8M8 13h8M8 17h5"/></svg><div><span class="v-main"></span></div></li>
+        </ul>
+        <div class="inv-view-actions">
+          <button type="button" class="button" id="vCal"><span data-lang="en">Add to calendar</span><span data-lang="yi" hidden>צולייגן צום קאלענדאר</span></button>
+          <a class="button button-ghost" id="vGcal" href="#" target="_blank" rel="noopener"><span data-lang="en">Google Calendar</span><span data-lang="yi" hidden>גוגל קאלענדאר</span></a>
+          <a class="button button-ghost" id="vMaps" href="#" target="_blank" rel="noopener"><span data-lang="en">Directions (Google Maps)</span><span data-lang="yi" hidden>וועגווייזער (גוגל מעפס)</span></a>
+          <a class="button button-ghost" id="vWaze" href="#" target="_blank" rel="noopener"><span data-lang="en">Waze</span><span data-lang="yi" hidden>וועיז</span></a>
+          <a class="button inv-rsvp" id="vRsvpCall" href="#" hidden><svg class="ico-sm" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span data-lang="en">RSVP by phone</span><span data-lang="yi" hidden>ענטפערט דורכן טעלעפאן</span></a>
+          <a class="button inv-rsvp" id="vRsvpText" href="#" hidden><svg class="ico-sm" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg><span data-lang="en">RSVP by text</span><span data-lang="yi" hidden>ענטפערט מיט א טעקסט</span></a>
+          <a class="button button-ghost inv-mazel" id="vMazel" href="#" hidden><span aria-hidden="true">✦ </span><span data-lang="en">Send a Mazel Tov</span><span data-lang="yi" hidden>שיקט א מזל טוב</span></a>
+        </div>
+        <div class="inv-view-secondary">
+          <button type="button" class="inv-linkbtn" id="vPng"><span data-lang="en">Save the invitation image</span><span data-lang="yi" hidden>היט אפ די בילד</span></button>
+          <button type="button" class="inv-linkbtn" id="vShare"><span data-lang="en">Share this invitation</span><span data-lang="yi" hidden>שיקט די הזמנה ווייטער</span></button>
+          <button type="button" class="inv-linkbtn" id="vCopy"><span data-lang="en">Copy link</span><span data-lang="yi" hidden>קאפירט דעם לינק</span></button>
+        </div>
+        <p class="inv-status inv-view-status" id="vStatus" role="status" aria-live="polite"></p>
+        <div class="inv-make">
+          <p><span data-lang="en">Making a simcha? Create a beautiful invitation like this one — free.</span><span data-lang="yi" hidden>מאכט איר א שמחה? מאכט א שיינע הזמנה ווי די — אומזיסט.</span></p>
+          <a class="button button-gold" id="vMake" href="index.html"><span data-lang="en">Make your own invitation</span><span data-lang="yi" hidden>מאכט אייער אייגענע הזמנה</span></a>
+        </div>
+        <p class="inv-privacy"><span data-lang="en">This invitation lives entirely in its link — it isn’t stored on our site.</span><span data-lang="yi" hidden>די הזמנה איז גאנץ אינעם לינק — זי ווערט נישט געהאלטן אויף אונזער זייטל.</span></p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="sx-footer">
+  <div class="wrap sx-footer-inner">
+    <svg class="sx-mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="sxGoldF" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9cf95"/><stop offset=".5" stop-color="#b8955f"/><stop offset="1" stop-color="#8a6a3f"/></linearGradient></defs><circle cx="24" cy="24" r="22.5" fill="none" stroke="url(#sxGoldF)" stroke-width="1.2"/><path d="M24 7l4.6 6.4H36l-1.2 7.4L41 24l-6.2 3.2L36 34.6h-7.4L24 41l-4.6-6.4H12l1.2-7.4L7 24l6.2-3.2L12 13.4h7.4z" fill="none" stroke="url(#sxGoldF)" stroke-width="1.3" stroke-linejoin="round"/><path d="M24 15l9 9-9 9-9-9z" fill="url(#sxGoldF)" opacity=".92"/><circle cx="24" cy="24" r="2.6" fill="#fbf8f2"/></svg>
+    <p class="sx-footer-name"><span data-lang="en">Simcha Invitations</span><span data-lang="yi" hidden>שמחה אינלאדונגען</span></p>
+    <p class="sx-credit"><a href="https://david7578433-bit.github.io/khaso/" target="_blank" rel="noopener"><span data-lang="en">Made with <span class="sx-heart" aria-label="love">❤</span> by the Kasho community</span><span data-lang="yi" hidden>געמאכט מיט <span class="sx-heart" aria-label="ליבשאפט">❤</span> פון דער קאשוי קהילה</span></a></p>
+    <p class="sx-footer-small">© <span data-year>2026</span> · <span data-lang="en">Free for every simcha</span><span data-lang="yi" hidden>אומזיסט פאר יעדע שמחה</span> · <button class="link-button sx-footer-lang lang-button" type="button" onclick="toggleLang()">אידיש</button></p>
+  </div>
+</footer>
+
+<script>window.KASHO_SITE = 'public';</script>
+<script>window.goatcounter = { path: function (p) { return p.indexOf('/simcha-invitations/') === 0 ? p : '/simcha-invitations' + p; } };</script>
+<script data-goatcounter="https://kehalkasho.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://david7578433-bit.github.io/simcha-invitations/sitemap.xml
